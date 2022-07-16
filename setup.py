@@ -14,7 +14,7 @@ setup(
     # Will find cli_example and cli_example.commands packages
     packages=find_packages('src'),
     # The 'root' package is in src/
-    package_dir={'': 'src', 'cli_example': 'src/cli_example'},
+    package_dir={'': 'src'},
     entry_points={
         'console_scripts': [
             'py-cli-example=cli_example.main:main',
