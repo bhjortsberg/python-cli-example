@@ -9,7 +9,7 @@ setup(
     author_email='bjorn.hjortsberg@gmail.com',
     # Will find cli_example and cli_example.commands packages
     packages=find_packages('src'),
-    # The 'root' package is in src/
+    # The 'root' package is in src/ - not needed if not using a src/ dir
     package_dir={'': 'src'},
     entry_points={
         'console_scripts': [
