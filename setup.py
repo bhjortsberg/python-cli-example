@@ -1,9 +1,5 @@
 from setuptools import setup, find_packages
 
-# python3 -m venv env
-# env/bin/pip3 install .
-with open('test.bhj', 'w') as f:
-    f.write(' '.join(find_packages('src')))
 
 setup(
     name='py-cli-example',
